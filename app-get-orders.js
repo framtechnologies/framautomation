@@ -43,6 +43,8 @@ const WooCommerce = new WooCommerceRestApi({
       // Always executed.
     });
 
+    //Hei på deg Eirik!
+
 //   WooCommerce.get("products/40")
 //   .then((response) => {
 //     console.log(response.data);
