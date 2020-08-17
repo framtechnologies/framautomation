@@ -1,0 +1,142 @@
+{
+  id: 12180,
+  parent_id: 0,
+  number: '12180',
+  order_key: 'wc_order_FpqeuaShDP2S5',
+  created_via: 'checkout',
+  version: '3.8.1',
+  status: 'processing',
+  currency: 'NOK',
+  date_created: '2020-08-09T15:33:02',
+  date_created_gmt: '2020-08-09T13:33:02',
+  date_modified: '2020-08-09T15:33:03',
+  date_modified_gmt: '2020-08-09T13:33:03',
+  discount_total: '0.00',
+  discount_tax: '0.00',
+  shipping_total: '0.00',
+  shipping_tax: '0.00',
+  cart_tax: '313.50',
+  total: '2403.50',
+  total_tax: '313.50',
+  prices_include_tax: false,
+  customer_id: 373,
+  customer_ip_address: '193.90.206.246',
+  customer_user_agent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.105 Safari/537.36',
+  customer_note: '',
+  billing: {
+    first_name: 'Bølgen og Moi Drammen',
+    last_name: '',
+    company: '',
+    address_1: 'Nedre Strandgate 4',
+    address_2: '',
+    city: '',
+    state: '',
+    postcode: '',
+    country: '',
+    email: 'chef.drammen@bolgenogmoi.no',
+    phone: '40223894'
+  },
+  shipping: {
+    first_name: 'Bølgen og Moi Drammen',
+    last_name: '',
+    company: '',
+    address_1: 'Nedre Strandgate 4',
+    address_2: '',
+    city: 'Drammen',
+    state: '',
+    postcode: '3015',
+    country: ''
+  },
+  payment_method: 'cod',
+  payment_method_title: 'Faktura',
+  transaction_id: '',
+  date_paid: null,
+  date_paid_gmt: null,
+  date_completed: null,
+  date_completed_gmt: null,
+  cart_hash: '38fe7f713ffc5f82224de5f4edc0b079',
+  meta_data: [
+    { id: 71671, key: 'is_vat_exempt', value: 'no' },
+    { id: 71672, key: 'fakturatype', value: 'EHF' },
+    { id: 71673, key: '_wwpp_order_type', value: 'wholesale' },
+    {
+      id: 71674,
+      key: '_wwpp_wholesale_order_type',
+      value: 'wholesale_customer'
+    },
+    {
+      id: 71675,
+      key: 'wwp_wholesale_role',
+      value: 'wholesale_customer'
+    },
+    { id: 71680, key: '_ga_tracked', value: '1' }
+  ],
+  line_items: [
+    {
+      id: 3411,
+      name: 'Botella High Performance (10L)',
+      product_id: 36,
+      variation_id: 0,
+      quantity: 5,
+      tax_class: 'redusert-sats',
+      subtotal: '1145.00',
+      subtotal_tax: '171.75',
+      total: '1145.00',
+      total_tax: '171.75',
+      taxes: [Array],
+      meta_data: [Array],
+      sku: 'bot0001',
+      price: 229
+    },
+    {
+      id: 3412,
+      name: 'Botella rapsolje 100% (10L)',
+      product_id: 38,
+      variation_id: 0,
+      quantity: 5,
+      tax_class: 'redusert-sats',
+      subtotal: '945.00',
+      subtotal_tax: '141.75',
+      total: '945.00',
+      total_tax: '141.75',
+      taxes: [Array],
+      meta_data: [Array],
+      sku: 'bot0003',
+      price: 189
+    }
+  ],
+  tax_lines: [
+    {
+      id: 3414,
+      rate_code: 'NO-SKATT-1',
+      rate_id: 2,
+      label: 'Skatt',
+      compound: false,
+      tax_total: '313.50',
+      shipping_tax_total: '0.00',
+      rate_percent: 15,
+      meta_data: []
+    }
+  ],
+  shipping_lines: [
+    {
+      id: 3413,
+      method_title: 'Gratis frakt',
+      method_id: 'free_shipping',
+      instance_id: '3',
+      total: '0.00',
+      total_tax: '0.00',
+      taxes: [],
+      meta_data: [Array]
+    }
+  ],
+  fee_lines: [],
+  coupon_lines: [],
+  refunds: [],
+  currency_symbol: 'kr',
+  _links: {
+    self: [ [Object] ],
+    collection: [ [Object] ],
+    customer: [ [Object] ]
+  }
+}
