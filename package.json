@@ -10,7 +10,10 @@
   "license": "ISC",
   "dependencies": {
     "@woocommerce/woocommerce-rest-api": "^1.0.1",
+    "node-fetch": "^2.6.0",
+    "requests": "^0.3.0",
     "require": "^2.4.20",
-    "swagger": "^0.7.5"
+    "swagger": "^0.7.5",
+    "window": "^4.2.7"
   }
 }
