@@ -12,11 +12,11 @@ const WooCommerce = new WooCommerceRestApi({
   })
     .then((response) => {
       // Successful request
-      console.log("Response Status:", response.status);
+      //console.log("Response Status:", response.status);
       // console.log("Response Headers:", response.headers);
-      console.log("Total of pages:", response.headers['x-wp-totalpages']);
-      console.log("Total of items:", response.headers['x-wp-total']);
-        // console.log(response.data)
+      //console.log("Total of pages:", response.headers['x-wp-totalpages']);
+      //console.log("Total of items:", response.headers['x-wp-total']);
+        console.log(response)
 
         for (i = 0; i < response.data.length; i++) {
           console.log(response.data[i].id);
@@ -73,3 +73,4 @@ const WooCommerce = new WooCommerceRestApi({
 //   .finally(() => {
 //     // Always executed.
 //   });
+

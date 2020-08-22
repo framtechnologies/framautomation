@@ -1,5 +1,6 @@
 
 const fetch = require('node-fetch');
+
 async function getSessionTokenTripletex(consumerToken, employeetoken) {
   const url = "https://api.tripletex.io/v2/token/session/:create?&consumerToken=" + consumerToken + "&employeeToken=" + employeetoken +"&expirationDate=2025-09-30"
   options = {
